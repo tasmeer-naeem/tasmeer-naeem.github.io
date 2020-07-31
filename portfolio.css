@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+}
+
+.navbar ul{
+    
+    text-align: right;
+}
+.navbar ul li{
+    display: inline;
+    line-height: 120px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li a{
+    color: white;
+}
+.navbar ul li a:hover{
+    background-color:purple;
+
+}
+.view{
+    background-image: url(image.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    position: relative;
+}
+.view .heading{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: absolute;
+    font-size: 2em;
+    width: 100%;
+    top: 45%;
+    left: 50%;
+    background-color: transparent;
+    transform: translate(-50%,-50%);
+}
+
+.more li{
+   display: inline;
+   text-align: center;
+   padding: 0.2%; 
+   
+}
+.view .navbar{
+    background-color: #0009;
+    height: 120px;
+}
+#sidebar{
+    background-color:purple;
+    width:"5%";
+    height: 1600px;
+    
+}
+ #dv2{
+     background-color:darkgray;
+     text-align: center;
+     width:80%;
+     height: 650px;
+     float: right;
+     margin-right: 9%;
+     margin-left: 25%;
+ }
+ #dv3{
+    background-color:darkgray;
+    width:80%;
+     height: 470px;
+     float: right;
+     margin-right: 9%;
+     margin-left: 25%;
+ }
+ #dv4{
+    background-color:darkgray;
+ 
+    width:80%;
+     height: 300px;
+     float: right;
+     margin-right: 9%;
+     margin-left: 25%;
+ }
+.aboutme{
+    background-color: darkgray;
+    text-align: center;
+}
+.aboutme table{
+    text-align: left;
+    background-color:darkgray;
+    left: 50px;
+    height: 250px;
+    
+}
+input{
+    background-color:lightgray;
+    border-radius: 4em;
+}
+textarea{
+    background-color:lightgray;
+    border-radius: 2em;
+    
+} 
+#btn{
+    width: 20%;
+    height: 30px;
+    background-color:purple;
+    color: white;
+}
